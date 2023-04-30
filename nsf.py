@@ -103,7 +103,7 @@ def main():
             length = random.randrange(1, maximus)
             file = open(out, "a+", encoding="utf-8")
 
-            sep = random.choice([True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False])
+            sep = random.choice([True, True, False])
             word1 = random.choice(words)
             word2 = random.choice(wordsbad)
 
