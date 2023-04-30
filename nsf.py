@@ -8,35 +8,6 @@ import random
 import time
 
 
-number = "1"
-symbols = "_"
-bigchar = "XYZ"
-smallchar = "abcdefghijklmnopqrstuvwxyz"
-
-
-def brut(bool_bigchar, bool_smallchar,
-         bool_number, bool_symbols):
-    string = ""
-
-    if bool_bigchar:
-        string += bigchar
-
-    if bool_smallchar:
-        string += smallchar
-
-    if bool_number:
-        string += number
-
-    if bool_symbols:
-        string += symbols
-
-    if string == "":
-        string += bigchar + \
-                  smallchar + \
-                  number + \
-                  symbols
-
-    return string
 
 
 def txt_grn(text):
@@ -113,9 +84,9 @@ def main():
     
     with open("input.txt") as file:
         words = [word[:-1] for word in file.readlines()]
-        with open("wordsbad.txt") as f:
-             wordsbad = [words[:-1] for word in f.readlines()]
-    root = [".com", ".ru", ".org", ".net", ".biz", ".us", ".fr", ".br", ".ca", ".ua", ".jp"]
+    with open("wordsbad.txt") as f:
+        wordsbad = [wordsbad[:-1] for wordsbad in f.readlines()]
+    root = [".com"]
     used_url = []
 
     found = 0
