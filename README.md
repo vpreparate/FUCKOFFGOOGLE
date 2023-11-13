@@ -1,6 +1,6 @@
 # FUCKOFFGOOGLE
 FIND SITES FROM IN FILES WITH WORDS BY KEYWORDS IN URL AND PARSE TITLE
-Reduced Fork https://github.com/CipherDogs/search-site 
+inspired by work https://github.com/CipherDogs/search-site 
 Only he will look for sites From the keyword file input.txt
 and write the found sites to the file sites.txt
 if not difficult, share bitcoin 0.00051 
@@ -14,7 +14,7 @@ $pip3 install -r requirements.txt
 ## Running
 
 ```
-$python3 nsf.py
+$python3 nsfeng.py
 
 
 ## Stoping
