@@ -14,7 +14,7 @@ $pip3 install -r requirements.txt
 ## Running
 
 ```
-$python3 nsfeng.py
+$python3 nsf.py
 
 
 ## Stoping
